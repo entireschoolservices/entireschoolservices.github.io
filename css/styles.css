@@ -6899,3 +6899,56 @@ footer h3:after {
   width: 10px;
   height: 10px;
 }
+
+
+/* Logo Design */
+.banner {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(233, 233, 233) !important;
+}
+
+.banner-footer {
+  color: #f5f5f5 !important;
+  transition: 0.5s;
+}
+
+.school-logo {
+  color: #d21e2b;
+  border-top: solid 13px #d21e2b;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 40%;
+  transition: 0.5s;
+}
+.entire-logo, .service {
+  border-bottom: 5px solid #d21e2b;
+  border-radius: 10%;
+  transition: 0.5s;
+}
+.entire-black, .service-black {
+  color: #343a40;
+}
+.banner:hover .service, .banner:hover .entire-logo {
+  border-bottom: 5px solid rgb(255, 255, 255);
+  color: #d21e2b;
+  transition: 0.5s;
+}
+.banner:hover .school-logo {
+  border-top-color: #fff;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+.banner:hover .school-black{
+  color: #343434;
+  border-top: 13px solid #343434;
+}
+.banner:hover .service-black, .banner:hover .entire-black {
+  border-bottom-color: #343434;
+}
+.banner-footer:hover .school-logo{
+  color: #f5f5f5 !important;
+  border-top: 13px solid #fff;
+}
+
+
