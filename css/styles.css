@@ -2825,7 +2825,7 @@ footer {
 }
 footer p {
   font-size: 14px;
-  color: #999;
+  color: #6c757d;
   line-height: 1.7;
 }
 footer h3 {
@@ -2874,7 +2874,7 @@ footer h3:after {
 }
 .footer-list li {
   list-style-type: none;
-  color: #aaa;
+  color: #222;
   padding: 6px 0px;
 }
 .footer-list li a:before {
@@ -2888,7 +2888,7 @@ footer h3:after {
 .footer-list li a {
   font-size: 15px;
   font-weight: 400;
-  color: #aaa;
+  color: #6c757d;
 }
 .footer-list li a:hover {
   color: #fff;
