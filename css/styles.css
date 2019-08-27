@@ -5168,6 +5168,8 @@ footer h3:after {
 .masonry-4 a {
   display: block;
   margin-top: 10px;
+  border: 5px dashed rgba(179, 4, 4, 0.658);
+  padding: 5px;
 }
 .masonry-4 a:first-child {
   margin-top: 0px;
