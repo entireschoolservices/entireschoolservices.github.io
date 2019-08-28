@@ -596,19 +596,49 @@
             </div>
           </div>
           <div class="col-md-8 col-sm-8 col-12">
-            <form class="callback-form">
+            <script type="text/javascript">
+              var submitted = false;
+            </script>
+            <iframe
+              name="hidden_iframe"
+              id="hidden_iframe"
+              style="display:none;"
+              onload="if(submitted) {window.location='thankyou.html';}"
+            ></iframe>
+            <form
+              class="callback-form"
+              action="https://docs.google.com/forms/d/e/1FAIpQLSfHQaBGAmPCd7Im9Mytr41WAZiK4v6_MTk-HJXar9nTHwChOg/formResponse"
+              method="post"
+              target="hidden_iframe"
+              onsubmit="submitted=true;"
+            >
               <div class="row">
                 <div class="col-md-6 col-12">
-                  <input type="text" placeholder="Name" />
+                  <input
+                    type="text"
+                    name="entry.219990337"
+                    placeholder="Enter Your Name*"
+                    required
+                  />
                 </div>
                 <div class="col-md-6 col-12">
-                  <input type="text" placeholder="Subject" />
+                  <input
+                    type="text"
+                    name="entry.1392982603"
+                    placeholder="Subject"
+                  />
                 </div>
                 <div class="col-md-6 col-12">
-                  <input type="text" placeholder="Phone" />
+                  <input
+                    type="number"
+                    name="entry.1998422874"
+                    placeholder="Enter Mob. Number*"
+                    required
+                  />
                 </div>
                 <div class="col-md-6 col-12">
                   <button
+                    type="submit"
                     class="button-md dark-button half-width semi-rounded mt-15"
                   >
                     Request
